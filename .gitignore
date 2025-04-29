@@ -1,0 +1,44 @@
+# Ignore Vivado-generated folders
+# Ignore Vivado build artifacts
+**/*.pb
+**/*.dcp
+**/*.vds
+**/*.rpt
+**/*.wdf
+**/*.xml
+**/*.sh
+**/*.bat
+**/*.js
+**/*.tcl
+**/.Xil/
+**/.Vivado_*/       # Queue/cache metadata
+**/.Xil/**
+**/*.log
+**/*.jou
+**/*.str
+**/*.html
+**/__synthesis_is_complete__
+**/vivado.begin.rst
+**/vivado.end.rst
+**/.Xil/
+**/*.xpr
+**/*_synth_*
+**/*_impl_*
+
+# Ignore Vivado-generated folders
+**/*.runs/
+**/.runs/
+**/*.ip_user_files/
+**/ip_user_files/
+**/.cache/
+.cache/
+.sim/
+.hw/
+*~
+*.swp
+.DS_Store
+
+# Keeping source files only
+booths_recoding/*
+!hardware/sim/booth_tb.v
+!hardware/src/booth.v
