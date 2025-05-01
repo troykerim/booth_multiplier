@@ -6,8 +6,21 @@ This project implements a hardware-based signed multiplication system using Boot
 
 Both the main Verilog module and the corresponding testbench can be found in the hardware folder.
 
+## Simulation Output
 
+Below is a waveform of the Booth's multiplier beginning its operation:
 
-## To do list
-- Add waveforms from simulation
-- Add screenshots
+![Waveform Start](screenshots/waveform_start.png)
+
+Here's a zoomed-in view of the internal multiplication process:
+
+![Zoomed In](screenshots/waveform_start_zoomed_in.png)
+
+And this image shows multiple test results running sequentially:
+
+![Extended Multiples](screenshots/more_multiples_extended.png)
+
+This image shows the internal multiplication/division (shifting right/left) that occurs during the multiplication process:
+
+![Internal Multiplication](screenshots/internal_multiplication.png)
+
