@@ -116,7 +116,8 @@ task run_test_case(input [31:0] M_val, input [31:0] Q_val);
 
         // Add a short delay to ensure all signals have settled
         #1; // Wait for a single time unit
-        $display("Time = %0t, M = %0d, Q = %0d, Result (P) = %0d", $time, M, Q, P);
+        //$display("Time = %0t, M = %0d, Q = %0d, Result (P) = %0d", $time, M, Q, P);
+        $display("Time = %0t | M = %11d | Q = %11d | Result (P) = %20d", $time, M, Q, P);
 
         // Apply reset before the next test case
         reset = 1;

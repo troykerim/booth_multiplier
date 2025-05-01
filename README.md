@@ -24,3 +24,6 @@ This image shows the internal multiplication/division (shifting right/left) that
 
 ![Internal Multiplication](screenshots/internal_multiplication.png)
 
+Below is the console output of this testbench:
+
+![Console Output](screenshots/console_output.png)
